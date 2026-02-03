@@ -1,0 +1,364 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.Menu-NextCent {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.Menu-NextCent li a {
+    text-decoration: none;
+    color: #18191F;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.Menu-NextCent li a:hover {
+    color: #4CAF4F;
+}
+
+.Header-Buttons {
+    display: flex;
+    gap: 14px;
+}
+
+.Btn-Login {
+    background-color: transparent;
+    color: #4CAF4F;
+    border: none;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.Btn-Login:hover {
+    color: #3d8b40;
+}
+
+.Btn-Signup {
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Btn-Signup:hover {
+    background-color: #3d8b40;
+}
+
+.Hero-Section {
+    max-width: 1440px;
+    margin: 80px auto;
+    padding: 0 40px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Hero-Section h1 {
+    font-size: 65px;
+    color: #4CAF4F;
+    margin-bottom: 20px;
+}
+
+.Hero-Section p {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.Hero-Section .Btn-Register {
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Hero-Section .Btn-Register:hover {
+    background-color: #3d8b40;
+}
+
+.Hero-Text {
+    text-align: left;
+    padding-right: 40px;
+}
+
+.Hero-Image {
+    text-align: right;
+}
+
+.h1-1 {
+    color: #555555;
+}
+
+.Carousel-Buttons {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 32px;
+}
+
+.Carousel-Btn {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background-color: #C6E6C7;
+    cursor: pointer;
+    padding: 0;
+}
+
+.Carousel-Btn.Active {
+    width: 16px;
+    height: 16px;
+    background-color: #4CAF4F;
+}
+
+.Clients h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #555555;
+}
+
+.Clients p {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 60px;
+}
+
+.Client-Logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 185px;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.Services {
+    max-width: 1440px;
+    margin: 0 auto 80px auto;
+    padding: 0 40px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.Service-Item h3 {
+    font-size: 24px;
+    color: #555555;
+    margin-bottom: 16px;
+}
+
+.Unlock {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1440px;
+    margin: 0 auto 80px auto;
+}
+
+.Unlock h2 {
+    font-size: 32px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.Unlock p {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.Btn-LearnMore {
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Achievements {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1440px;
+    margin: 0 auto 80px auto;
+}
+
+.Achievements-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Stat-Item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 5px;
+    text-align: left;
+}
+
+.Stat-Item img {
+    grid-row: 1 / 3;
+    align-self: flex-start;
+}
+
+.Stat-Item h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #555555;
+}
+
+.Stat-Item p {
+    margin: 0;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.Achievements h2 {
+    font-size: 32px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.h2-2 {
+    color: #4CAF4F;
+}
+
+.Achievements p {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.Calender {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1440px;
+    margin: 0 auto 80px auto;
+}
+
+.Calender h2 {
+    font-size: 32px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.Calender p {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.customers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1440px;
+    margin: 0 auto 80px auto;
+}
+
+.customers p {
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 40px;
+}
+
+.customers h3 {
+    font-size: 24px;
+    color: #4CAF4F;
+    margin-bottom: 16px;
+}
+
+.Star-Rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.Star-Rating a {
+    text-decoration: none;
+    color: #4CAF4F;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+    white-space: nowrap;
+}
+
+.CommunityUpdates h2 {
+    font-size: 32px;
+    color: #555555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.CommunityUpdates p {
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 690px;
+    margin: 0 auto 80px auto;
+    padding: 0 40px;
+}
+
+.Blog-Posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1440px;
+    margin: 0 auto 80px auto;
+}
+
+.Blog-Post h3 {
+    font-size: 20px;
+    color: #555555;
+    margin: 16px 0;
+}
+
+.Blog-Post a {
+    text-decoration: none;
+    color: #4CAF4F;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
